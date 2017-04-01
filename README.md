@@ -66,7 +66,7 @@ The directory where your Brewfile is located.
         homebrew_installed_packages:
           - mysql
       roles:
-        - { role: engboilers.homebrew, homebrew_execute: true }
+        - { role: Engboilers.homebrew, homebrew_execute: true }
 
 ## License
 
