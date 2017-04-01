@@ -1,6 +1,6 @@
 # Ansible Role: Homebrew
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-homebrew.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-homebrew)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-homebrew.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-homebrew)
 
 Installs [Homebrew](http://brew.sh/) on macOS, and configures packages, taps, and cask apps according to supplied variables.
 
@@ -66,7 +66,7 @@ The directory where your Brewfile is located.
         homebrew_installed_packages:
           - mysql
       roles:
-        - { role: kadaan.homebrew, homebrew_execute: true }
+        - { role: engboilers.homebrew, homebrew_execute: true }
 
 ## License
 
@@ -74,4 +74,4 @@ MIT / BSD
 
 ## Author Information
 
-[kadaan/ansible-role-homebrew](https://github.com/kadaan/ansible-role-homebrew), 2017 (originally inspired by [Jeff Geerling](https://www.jeffgeerling.com/), 2014).
+[engboilers/ansible-role-homebrew](https://github.com/engboilers/ansible-role-homebrew), 2017 (originally inspired by [Jeff Geerling](https://www.jeffgeerling.com/), 2014).
